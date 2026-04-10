@@ -1,0 +1,24 @@
+encoding  utf-8
+# Created with SexyTopo 1.10.2 on 2026-03-29
+
+text en "line handrail" "dive line"
+text en "line steps" "man-made dam"
+
+layout local
+  debug off
+  legend on
+  symbol-hide group cave-centreline
+  symbol-set BCRA
+  map-comment "BCRA grade 6d<br>29/03/2026"
+  map-header -45 100 nw
+  
+  symbol-colour point water-flow [0 0 100]
+  symbol-colour area water [0 0 100]
+  symbol-colour area sump [0 0 100]
+endlayout
+
+source "JH_MO_DW_29_03_2026.th"
+
+export map -proj plan -layout local -o "JH_MO_DW_29_03_2026-plan.pdf"
+
+export map -proj extended -layout local -o "JH_MO_DW_29_03_2026-ee.pdf"

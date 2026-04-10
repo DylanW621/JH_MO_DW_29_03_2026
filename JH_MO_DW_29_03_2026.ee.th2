@@ -1,0 +1,108 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -994.1417 -1230.3622 7214.61446 1309.1024400000001
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {1417.28 1 1.0} {372.61 5} JH_MO_DW_29_03_2026.ee.xvi 0 {}
+
+
+
+scrap jh_mo_dw_29_03_2026_ee -projection extended -scale [-1653.54 -1496.06 7952.76 -1496.06 0.0 0.0 244.00001999999998 0.0 m]
+
+point 292.85947 -151.35474 station -name 2
+
+point 605.18207 -49.01747 station -name 3
+
+point 902.47 159.99962 station -name 4
+
+point 1417.2775 372.60663 station -name 5
+
+point 1769.2697 397.3503 station -name 6
+
+point 2306.221 320.55872 station -name 7
+
+point 2422.997 331.59613 station -name 8
+
+point 2744.489 336.01178 station -name 9
+
+point 3087.6462 461.03546 station -name 10
+
+point 3339.381 691.94836 station -name 11
+
+point 3670.3506 579.5706 station -name 12
+
+point 3852.3364 592.07184 station -name 13
+
+point 4772.6274 620.6603 station -name 14
+
+point 5120.568 706.7175 station -name 15
+
+point 5984.3335 721.03094 station -name 16
+
+point 6122.708 699.0785 station -name 17
+
+point 6216.8447 735.2304 station -name 18
+
+point 3745.9866 646.296 station -name 19
+
+point 3162.8508 447.39368 station -name 23
+
+point 3534.4492 379.97833 station -name 24
+
+point 3736.9995 335.13815 station -name 25
+
+point 113.32575 -63.213192 station -name 26
+
+point 612.22455 16.309168 station -name 27
+
+point 942.8271 105.36964 station -name 28
+
+point 1119.7328 161.13031 station -name 29
+
+point 1674.6196 333.3467 station -name 30
+
+point 1983.4377 334.0733 station -name 31
+
+point 2166.4744 394.341 station -name 32
+
+point 2317.9075 428.6702 station -name 33
+
+point 2390.8352 478.86133 station -name 34
+
+point 2489.307 490.526 station -name 35
+
+point 3792.1533 253.10162 station -name 36
+
+point 3896.0635 250.7434 station -name 37
+
+point 3953.5012 238.5673 station -name 38
+
+point 4129.918 226.96233 station -name 39
+
+point 4661.332 73.1419 station -name 40
+
+point 4927.1294 -33.389385 station -name 41
+
+point 5227.118 -40.751076 station -name 42
+
+point 5526.6724 -65.53116 station -name 43
+
+point 5595.1973 13.800287 station -name 44
+
+point 5833.0776 -24.17494 station -name 45
+
+point 6168.651 2.273152 station -name 46
+
+endscrap
+
+
+
+scrap scrap58 -scale [-1653.54 -1496.06 7952.76 -1496.06 0.0 0.0 244.00001999999998 0.0 m]
+
+point 2679.8074 424.41907 station -name 20
+
+point 2853.417 475.32303 station -name 21
+
+point 2921.7773 439.3577 station -name 22
+
+endscrap
+
+
