@@ -3,19 +3,18 @@ encoding  utf-8
 
 # created with SexyTopo 1.10.2
 
-survey JH_MO_DW_29_03_2026 -title "Hospital Cave"
+survey JH_MO_DW_29_03_2026 -title "Ogof Ysbyty (Hospital Cave)"
 
 input "JH_MO_DW_29_03_2026.plan.th2"
 input "JH_MO_DW_29_03_2026.ee.th2"
 
   #equate 47 3
   #equate 25 9
-
+ 
   centreline
   
     team "Dylan Wase" notes
     team "Mono O'Donnell" instruments
-    explo-team "James Higgins"
   
     data normal from to length compass clino
     

@@ -4,14 +4,29 @@ encoding  utf-8
 text en "line handrail" "dive line"
 text en "line steps" "man-made dam"
 
-layout local
+layout plan-layout
   debug off
   legend on
   symbol-hide group cave-centreline
+  language  en_GB
   symbol-set BCRA
-  map-comment "BCRA grade 6d<br>29/03/2026"
+  map-comment "BCRA grade 6d<br>29/03/2026<br>Additional passage to original survey explored by James Higgins"
   map-header -45 100 nw
-  
+  symbol-colour point water-flow [0 0 100]
+  symbol-colour area water [0 0 100]
+  symbol-colour area sump [0 0 100]
+endlayout
+
+layout ee-layout
+  debug off
+  code tex-map
+    \def\maplayout{
+      \legendbox{50}{5}{S}{\ifscalebar\scalebar\fi}
+    }
+  endcode
+ 
+  symbol-hide group cave-centreline
+  symbol-set BCRA
   symbol-colour point water-flow [0 0 100]
   symbol-colour area water [0 0 100]
   symbol-colour area sump [0 0 100]
@@ -19,6 +34,6 @@ endlayout
 
 source "JH_MO_DW_29_03_2026.th"
 
-export map -proj plan -layout local -o "JH_MO_DW_29_03_2026-plan.pdf"
+export map -proj plan -layout plan-layout -o "output/JH_MO_DW_29_03_2026-plan.pdf"
 
-export map -proj extended -layout local -o "JH_MO_DW_29_03_2026-ee.pdf"
+export map -proj extended -layout ee-layout -o "output/JH_MO_DW_29_03_2026-ee.pdf"
